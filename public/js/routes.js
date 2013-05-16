@@ -1,7 +1,6 @@
 var config = require('../config');
-var gapi;
 
-module.exports = function (app, google_calendar, google_plus) {
+module.exports = function (app, google_calendar) {
     //The redirect URL must be matched!!
     app.all('/authentication', function (req, res) {
         //Redirect the user to Authentication From
@@ -42,13 +41,6 @@ module.exports = function (app, google_calendar, google_plus) {
         res.render("addEvent.html");
     });
 
-    app.all("/listContacts", function (req, res) {
-        var access_token = req.session.access_token;
-        if (!access_token)return res.redirect('/login');
-
-        res.render("listContacts.html");
-    });
-
     app.post('/ajax/addEvent', function (req, res) {
         var access_token = req.session.access_token;
         if (!access_token) return res.redirect('/login');
@@ -58,9 +50,6 @@ module.exports = function (app, google_calendar, google_plus) {
 
         if (entry) {
             google_calendar.listCalendarList(access_token, function (err, data) {
-
-                console.log(data);
-
                 if (err) return res.send(500, err);
 
                 var calendars = data.items.filter(function (calendar) {
@@ -68,6 +57,16 @@ module.exports = function (app, google_calendar, google_plus) {
                 })
 
                 var calendar = calendars[0];
+                var creator = calendar.summary;
+
+                entry.creator = {};
+                entry.email = creator;
+                entry.self = true;
+
+                entry.organizer = {};
+                entry.email = creator;
+                entry.self = true;
+
                 google_calendar.insertEvent(access_token, calendar.id, entry, function (err, event) {
 
                     if (err) {
@@ -82,9 +81,13 @@ module.exports = function (app, google_calendar, google_plus) {
         return false;
     });
 
-//    app.post('/ajax/listContacts', function(req, res){
-////        listContacts();
-//    });
+    app.post('/ajax/getCredentials', function(req, res){
+        var credentials = {};
+        credentials.clientId = config.google.clientID;
+        credentials.APIKey = config.google.APIKey;
+
+        return res.send(credentials);
+    });
 
     app.all('/', function (req, res) {
 

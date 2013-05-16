@@ -1,3 +1,6 @@
+var clientId, apiKey, myId ;
+var scopes = 'https://www.googleapis.com/auth/plus.login';
+
 $("#googleLogin").on("click", function(){
     window.location = "/authentication";
 });
@@ -21,14 +24,6 @@ $("#newEvent").on("click", function(){
         summary: title,
         description: desc,
         location: location,
-        creator:
-        { email: 'cgosa@tremend.ro',
-            displayName: 'Cornel Gosa',
-            self: true },
-        organizer:
-        { email: 'cgosa@tremend.ro',
-            displayName: 'Cornel Gosa',
-            self: true },
         start: { dateTime: date },
         end: { dateTime: date },
         "reminders": {
@@ -50,22 +45,23 @@ $("#newEvent").on("click", function(){
     });
 });
 
-var clientId = '1052598923377.apps.googleusercontent.com';
-var apiKey = 'AIzaSyB0XT5iLqT2qMyU0Vy2MkDcSBVoDwriPeM';
-var scopes = 'https://www.googleapis.com/auth/plus.login';
-
-var myId;
-
 // Use a button to handle authentication the first time.
 function handleClientLoad() {
-    gapi.client.setApiKey(apiKey);
-    window.setTimeout(checkAuth,1);
+    getCredentials();
+    window.setTimeout(gapi.client.setApiKey(apiKey), 50);
+    window.setTimeout(checkAuth, 51);
 }
 
 function checkAuth() {
     gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true}, handleAuthResult);
 }
 
+function getCredentials(){
+    $.post('/ajax/getCredentials', {}, function(credentials){
+        clientId = credentials.clientId;
+        apiKey = credentials.APIKey;
+    });
+}
 
 function handleAuthResult(authResult) {
     if (authResult && !authResult.error) {
@@ -122,9 +118,5 @@ function listContacts(){
 }
 
 $("#listContacts").on("click", function(){
-//    $.post('/ajax/listContacts', {}, function(res){
-//
-//    });
-
     listContacts();
 });
