@@ -5,10 +5,10 @@
     <ignored path="Calendar.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368603830893" ignored="false" />
-    <file path="/app.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368608167332" ignored="false" />
+    <file path="/app.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689488526" ignored="false" />
     <file path="/login.html" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368616587993" ignored="false" />
     <file path="/login.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368605761365" ignored="false" />
-    <file path="/routes.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368686253039" ignored="false" />
+    <file path="/routes.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689083382" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/session.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368604720446" ignored="false" />
     <file path="/a.dummy" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368620018869" ignored="false" />
     <file path="/GooglePlus.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368680519654" ignored="false" />
@@ -16,9 +16,13 @@
     <file path="/config.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368608147220" ignored="false" />
     <file path="/app.html" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368685207040" ignored="false" />
     <file path="/addEvent.html" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368619226212" ignored="false" />
-    <file path="/main.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368686458071" ignored="false" />
+    <file path="/main.js" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368688531694" ignored="false" />
     <file path="/Dummy.txt" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368619846048" ignored="false" />
     <file path="/app.css" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368685644500" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/jade/package.json" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689586826" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/package.json" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689586826" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/Readme.md" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689586826" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/bin/express" changelist="6e749fc1-da37-4ff0-91df-db8c67ead29a" time="1368689596052" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="55" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+            <state line="20" column="23" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,34 +102,25 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="69" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
+            <state line="57" column="0" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleCalendar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/GoogleCalendar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GooglePlus.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/GooglePlus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="31" selection-start="6938" selection-end="6938" vertical-scroll-proportion="-22.357143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="11" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.7979798">
+            <state line="45" column="3" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="85" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +129,7 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="64" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="14" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +138,7 @@
       <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="642" selection-end="642" vertical-scroll-proportion="-14.375">
+            <state line="23" column="7" selection-start="642" selection-end="642" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -168,22 +172,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/routes.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/js/login.js" />
         <option value="$PROJECT_DIR$/public/js/GoogleCalendar.js" />
         <option value="$PROJECT_DIR$/public/views/login.html" />
         <option value="$PROJECT_DIR$/public/views/addEvent.html" />
         <option value="$PROJECT_DIR$/public/views/listContacts.html" />
-        <option value="$PROJECT_DIR$/public/config.js" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/js/GooglePlus.js" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/public/js/gapi.js" />
         <option value="$PROJECT_DIR$/public/views/app.html" />
+        <option value="$PROJECT_DIR$/public/config.js" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/js/routes.js" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/init.js" />
       </list>
     </option>
   </component>
@@ -269,43 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/google-oauth/node_modules/oauth/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.05050505">
@@ -587,23 +548,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/listContacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="187" selection-end="187" vertical-scroll-proportion="0.21052632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="97" selection-end="155" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -615,44 +562,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/GooglePlus.js">
+    <entry file="file://$PROJECT_DIR$/public/views/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="31" selection-start="6938" selection-end="6938" vertical-scroll-proportion="-22.357143">
+        <state line="23" column="7" selection-start="642" selection-end="642" vertical-scroll-proportion="-14.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="55" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+        <state line="14" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/GoogleCalendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+        <state line="20" column="25" selection-start="598" selection-end="598" vertical-scroll-proportion="-2.0050504">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/app.html">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="642" selection-end="642" vertical-scroll-proportion="-14.375">
+        <state line="20" column="23" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="69" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
+        <state line="57" column="0" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="11" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.7979798">
+        <state line="45" column="3" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="85" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
