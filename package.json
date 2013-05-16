@@ -1,0 +1,15 @@
+{
+    "name": "TremendCalendar",
+    "version": "0.0.1",
+    "author": "Corneliu Gosa <cgosa@tremend.com>",
+    "private": true,
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "dependencies": {
+        "express":"2.x.x",
+        "google-oauth":"0.0.2",
+        "restler": "x",
+        "haml": "x"
+    }
+}

@@ -1,0 +1,30 @@
+#loginTable{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#welcome{
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#addEvent, #listContacts{
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#contacts {
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.photo {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
